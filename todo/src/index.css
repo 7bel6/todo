@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lato:wght@300;400&display=swap');
 body{
   font-family: 'Anton', sans-serif;
   /* font-family: 'Lato', sans-serif; */
@@ -59,4 +59,36 @@ ul{
 }
 .sidebar ul li i{
   margin-right: 10px;
+}
+.task-card{
+  background: white;
+  margin-left: 20px;
+  padding-left: 10px;
+  /* padding-top: 0px; */
+  width: 85%;
+  border-left: 10px solid;
+  overflow: auto;
+  margin-bottom: 15px;
+}
+.task-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 20px;
+  margin-bottom: -14px;
+}
+.task-header i{
+  font-size: 25px;
+}
+.task-body{
+  font-family: 'Lato', sans-serif;
+  margin-bottom: 12px;
+}
+.task-date{
+  font-size: 12px;
+    background: lightgray;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 1px #00000045;
 }

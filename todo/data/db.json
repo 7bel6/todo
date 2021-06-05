@@ -2,7 +2,16 @@
     "tasks": [
         {
             "task_title": "Task 1",
+            "task_body": "Go to the store",
             "task_date": "12/Feb/2021",
+            "project": "",
+            "is_done": false,
+            "id": 1
+        },
+        {
+            "task_title": "Task 2",
+            "task_body": "Go to the store",
+            "task_date": "14/Feb/2021",
             "project": "",
             "is_done": false,
             "id": 1
